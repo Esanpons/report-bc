@@ -1,5 +1,5 @@
 {
-    "name": "Ruleset Mitra",
+    "name": "Ruleset",
     "rules": [
         {
             "id": "AS0084",
@@ -20,6 +20,11 @@
             "id": "AA0232",
             "justification": "Es para evitar el SIFT en los FlowFields",
             "action": "None"
+        },
+        {
+            "id": "AS0051",
+            "justification": "Es para evitar el logo",
+            "action": "None"  
         }
     ]
 }
