@@ -30,7 +30,7 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     //las de Waldo. Configuración de nombres de archivos y objetos
-    "CRS.ObjectNameSuffix": "MGS",
+    "CRS.ObjectNameSuffix": "",
     //estructura para los nombres de los objetos
     "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",

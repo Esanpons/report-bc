@@ -2,36 +2,22 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Contenedor",
+            "name": "Formacion03",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://bcserver",
-            "serverInstance": "BC",
+            "server": "http://10.20.10.5:8080/Formacion03",
+            "serverInstance": "Formacion03",
+            "port": 7449,
             "authentication": "UserPassword",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": true,
-            "launchBrowser": true,
+            "launchBrowser": false,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "tenant": "default",
             "schemaUpdateMode": "ForceSync"
-        },
-        {
-            "name": "DebbugerWebService",
-            "type": "al",
-            "request": "attach",
-            "server": "http://bcserver",
-            "serverInstance": "BC",
-            "authentication": "UserPassword",
-            "breakOnError": true,
-            "breakOnRecordWrite": false,
-            "enableSqlInformationDebugger": true,
-            "enableLongRunningSqlStatements": true,
-            "longRunningSqlStatementsThreshold": 500,
-            "numberOfSqlStatements": 10,
-            "breakOnNext": "WebServiceClient"
         }
     ]
 }
