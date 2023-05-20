@@ -2,13 +2,14 @@
   "id": "60a17216-5902-448f-9940-07e133547e47",
   "name": "Resports",
   "publisher": "Esteve Sanpons Carballares",
-  "brief": "ControlAddIn Basico BC",
-  "description": "ControlAddIn Basico BC",
-  "privacyStatement": "https://github.com/Esanpons",
-  "EULA": "https://github.com/Esanpons",
-  "help": "https://github.com/Esanpons",
-  "url": "https://github.com/Esanpons",
-  "contextSensitiveHelpUrl":  "https://github.com/Esanpons",
+  "brief": "ControlAddIn Básico BC",
+  "description": "ControlAddIn Básico BC",
+  "privacyStatement": "https://www.aesva.es/",
+  "EULA": "https://www.aesva.es/",
+  "help": "https://www.aesva.es/",
+  "url": "https://www.aesva.es/",
+  "contextSensitiveHelpUrl":  "https://www.aesva.es/",
+  "logo": "./image/logo.png",
     "dependencies": [],
     "screenshots": [],
     "resourceExposurePolicy": {
@@ -31,7 +32,7 @@
         }
     ],    
     "version": "1.0.0.0", 
-    "application": "20.0.0.0",
+    "application": "22.0.0.0",
     "platform": "1.0.0.0",
-    "runtime": "9.0"
+    "runtime": "11.0"
 }
